@@ -813,6 +813,10 @@ justify-content: center;
   .container {
     padding: 0 16px;
   }
+  .contact-list{
+    display:flex;
+    flex-direction:column;
+  }
   
   .hero {
     padding: 120px 0 60px;
@@ -863,5 +867,6 @@ html {
 .skill-progress {
   animation: fillSkill 2s ease-in-out;
 }
+
 
 
